@@ -1,0 +1,96 @@
+.challenge-one {
+    background-color: rgba(243, 234, 227, 255);
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+h5 {
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+    font-family: Montserrat;
+    letter-spacing: 3.5;
+    font-weight: 600;
+
+}
+
+.strong-text {
+    font-weight: 900;
+    font-family: Fraunces;
+    font-size: 1.7rem;
+    width: 70%;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+
+}
+
+.data {
+    width: 90%;
+    font-size: 0.9rem;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.bold-price {
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.cancelled-price {
+    font-size: 0.7rem;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+button {
+    width: 80%;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+}
+
+.cart-icon {
+    width: 0.7rem;
+    height: 0.7rem;
+
+}
+
+.icon-text {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: white;
+    font-family: Montserrat;
+
+}
+
+button:hover {
+    background-color: hsl(160, 36%, 20%);
+}
+
+@media screen and (max-width: 375px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
